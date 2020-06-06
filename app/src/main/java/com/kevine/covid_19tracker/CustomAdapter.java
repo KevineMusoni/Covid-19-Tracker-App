@@ -12,18 +12,19 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.bumptech.glide.Glide;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class CustomAdapter extends ArrayAdapter<Country> {
-
     private Context context;
     private List<Country> countryList;
-    private List<Country> countryFiltered;
+    private List<Country> countryListFiltered;
 
-    public CustomAdapter(@NonNull Context context, List<Country> countryList) {
-        super(context, resource);
+    public CustomAdapter(Context context, List<Country> countryList) {
+        super(context, R.layout.list_custom_item,countryList);
+
+        this.context = context;
+        this.countryList = countryList;
+        this.countryListFiltered = countryList;
     }
 }
