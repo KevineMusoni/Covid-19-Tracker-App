@@ -3,7 +3,6 @@
     <string name="global_statistics">Global Statistics</string>
     <string name="deaths">Deaths</string>
     <string name="total_cases">Total Cases</string>
-    <string name="cases">Cases</string>
     <string name="_0">0</string>
     <string name="track_countries">Track Countries</string>
     <string name="recovered">Recovered</string>
@@ -13,4 +12,6 @@
     <string name="total_deaths">Total Deaths</string>
     <string name="today_s_deaths">Today\'s Deaths</string>
     <string name="affected_countries">Affected Countries</string>
+    <string name="country">Country</string>
+    <string name="cases">Cases</string>
 </resources>
